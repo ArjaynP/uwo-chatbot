@@ -356,7 +356,7 @@ export default function Home() {
                     Teacher education and educational research
                   </p>
                 </div>
-              </div>
+              </button>
 
               {/* Health Sciences */}
               <button 
@@ -390,7 +390,7 @@ export default function Home() {
                     Psychology, sociology, economics, and more
                   </p>
                 </div>
-              </div>
+              </button>
 
               {/* Information & Media Studies */}
               <button 
