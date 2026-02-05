@@ -9,64 +9,60 @@ export default function Home() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [selectedFaculty, setSelectedFaculty] = useState<string | null>(null);
 
-  const facultyPrograms: { [key: string]: string[] } = {
-    'science': [
+  const facultyDepartments: Record<string, string[]> = {
+    'Faculty of Science': [
       'Biology',
       'Chemistry',
       'Computer Science',
+      'Earth Sciences',
       'Mathematics',
       'Physics & Astronomy',
-      'Statistical & Actuarial Sciences',
-      'Earth Sciences',
-      'Environmental Science'
+      'Statistical & Actuarial Sciences'
     ],
-    'arts': [
+    'Arts & Humanities': [
       'English & Writing Studies',
       'History',
       'Philosophy',
       'Modern Languages & Literatures',
       'Classical Studies',
       'Visual Arts',
-      'Film Studies',
-      'Gender, Sexuality & Women\'s Studies'
+      'Theory & Criticism'
     ],
-    'education': [
+    'Education': [
+      'Professional Education',
+      'Educational Studies',
       'Teacher Education',
-      'Educational Leadership',
-      'Educational Psychology',
-      'Curriculum Studies',
-      'Professional Education'
+      'Graduate & Postdoctoral Studies'
     ],
-    'health': [
-      'Nursing',
-      'Health Sciences',
+    'Health Sciences': [
       'Kinesiology',
-      'Rehabilitation Sciences',
-      'Clinical Health'
+      'Health Sciences',
+      'Nursing',
+      'Physical Therapy',
+      'Occupational Therapy'
     ],
-    'social': [
+    'Social Science': [
+      'Anthropology',
+      'Economics',
+      'Geography',
+      'Political Science',
       'Psychology',
       'Sociology',
-      'Economics',
-      'Political Science',
-      'Anthropology',
-      'Geography',
-      'Indigenous Studies'
+      'Women\'s Studies & Feminist Research'
     ],
-    'media': [
+    'Information & Media Studies': [
       'Media, Information & Technoculture',
       'Journalism',
-      'Digital Communication',
-      'Information & Library Science',
-      'Game Design'
+      'Library & Information Science',
+      'Digital Communication'
     ],
-    'music': [
+    'Don Wright Faculty of Music': [
       'Music Performance',
-      'Music Composition',
-      'Music Theory',
-      'Music History',
       'Music Education',
-      'Music Technology'
+      'Music History',
+      'Composition',
+      'Music Theory',
+      'Opera'
     ]
   };
 
@@ -318,8 +314,8 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Faculty of Science */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'science' ? null : 'science')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
+                onClick={() => setSelectedFaculty(selectedFaculty === 'Faculty of Science' ? null : 'Faculty of Science')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
               >
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -336,8 +332,8 @@ export default function Home() {
 
               {/* Arts & Humanities */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'arts' ? null : 'arts')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
+                onClick={() => setSelectedFaculty(selectedFaculty === 'Arts & Humanities' ? null : 'Arts & Humanities')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
               >
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -354,8 +350,8 @@ export default function Home() {
 
               {/* Education */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'education' ? null : 'education')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
+                onClick={() => setSelectedFaculty(selectedFaculty === 'Education' ? null : 'Education')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
               >
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -374,8 +370,8 @@ export default function Home() {
 
               {/* Health Sciences */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'health' ? null : 'health')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
+                onClick={() => setSelectedFaculty(selectedFaculty === 'Health Sciences' ? null : 'Health Sciences')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
               >
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -388,13 +384,10 @@ export default function Home() {
                     Medicine, nursing, and health-related programs
                   </p>
                 </div>
-              </button>
+              </div>
 
               {/* Social Science */}
-              <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'social' ? null : 'social')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
-              >
+              <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -406,13 +399,10 @@ export default function Home() {
                     Psychology, sociology, economics, and more
                   </p>
                 </div>
-              </button>
+              </div>
 
               {/* Information & Media Studies */}
-              <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'media' ? null : 'media')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
-              >
+              <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
@@ -424,13 +414,10 @@ export default function Home() {
                     Digital media, communications, and information science
                   </p>
                 </div>
-              </button>
+              </div>
 
               {/* Don Wright Faculty of Music */}
-              <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'music' ? null : 'music')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left cursor-pointer border-2 border-transparent hover:border-[#4F2683]"
-              >
+              <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
@@ -442,52 +429,8 @@ export default function Home() {
                     Music performance, composition, and theory
                   </p>
                 </div>
-              </button>
-            </div>
-
-            {/* Programs Section - Shows when faculty is selected */}
-            {selectedFaculty && (
-              <div className="mt-8 bg-gradient-to-r from-[#4F2683] to-[#6B3BA3] rounded-lg shadow-xl p-8 animate-fadeIn">
-                <div className="flex justify-between items-center mb-6">
-                  <h3 className="text-2xl font-bold text-white">
-                    Programs in {selectedFaculty === 'science' ? 'Faculty of Science' : 
-                                selectedFaculty === 'arts' ? 'Arts & Humanities' :
-                                selectedFaculty === 'education' ? 'Education' :
-                                selectedFaculty === 'health' ? 'Health Sciences' :
-                                selectedFaculty === 'social' ? 'Social Science' :
-                                selectedFaculty === 'media' ? 'Information & Media Studies' :
-                                'Don Wright Faculty of Music'}
-                  </h3>
-                  <button 
-                    onClick={() => setSelectedFaculty(null)}
-                    className="text-white hover:text-gray-200 transition-colors"
-                    aria-label="Close"
-                  >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {facultyPrograms[selectedFaculty].map((program, index) => (
-                    <div 
-                      key={index}
-                      className="bg-white bg-opacity-10 backdrop-blur-sm rounded-lg p-4 text-white hover:bg-opacity-20 transition-all"
-                    >
-                      <div className="flex items-center gap-3">
-                        <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span className="text-sm font-medium">{program}</span>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                <p className="text-white text-sm mt-6 opacity-90">
-                  Click on any program above to learn more or ask our chatbot for detailed information.
-                </p>
               </div>
-            )}
+            </div>
           </div>
         </div>
       </main>
