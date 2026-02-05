@@ -9,61 +9,54 @@ export default function Home() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [selectedFaculty, setSelectedFaculty] = useState<string | null>(null);
 
-  const facultyDepartments: Record<string, string[]> = {
+  // Department data for each faculty
+  const facultyDepartments: Record<string, Array<{ name: string; description: string }>> = {
     'Faculty of Science': [
-      'Biology',
-      'Chemistry',
-      'Computer Science',
-      'Earth Sciences',
-      'Mathematics',
-      'Physics & Astronomy',
-      'Statistical & Actuarial Sciences'
+      { name: 'Biology', description: 'Study of life and living organisms' },
+      { name: 'Chemistry', description: 'Chemical sciences and research' },
+      { name: 'Physics & Astronomy', description: 'Physical sciences and space exploration' },
+      { name: 'Mathematics', description: 'Pure and applied mathematics' },
+      { name: 'Computer Science', description: 'Computing and software engineering' },
+      { name: 'Earth Sciences', description: 'Geology and environmental sciences' },
     ],
     'Arts & Humanities': [
-      'English & Writing Studies',
-      'History',
-      'Philosophy',
-      'Modern Languages & Literatures',
-      'Classical Studies',
-      'Visual Arts',
-      'Theory & Criticism'
+      { name: 'English & Writing Studies', description: 'Literature and creative writing' },
+      { name: 'History', description: 'Historical studies and research' },
+      { name: 'Philosophy', description: 'Critical thinking and ethics' },
+      { name: 'Modern Languages', description: 'Language studies and linguistics' },
+      { name: 'Classical Studies', description: 'Ancient civilizations and cultures' },
+      { name: 'Visual Arts', description: 'Art history and studio practice' },
     ],
     'Education': [
-      'Professional Education',
-      'Educational Studies',
-      'Teacher Education',
-      'Graduate & Postdoctoral Studies'
+      { name: 'Teacher Education', description: 'Initial teacher preparation programs' },
+      { name: 'Educational Studies', description: 'Educational research and policy' },
+      { name: 'Professional Development', description: 'Continuing education for teachers' },
     ],
     'Health Sciences': [
-      'Kinesiology',
-      'Health Sciences',
-      'Nursing',
-      'Physical Therapy',
-      'Occupational Therapy'
+      { name: 'Kinesiology', description: 'Human movement and exercise science' },
+      { name: 'Nursing', description: 'Nursing practice and healthcare' },
+      { name: 'Health Studies', description: 'Public health and wellness' },
+      { name: 'Rehabilitation Sciences', description: 'Physical and occupational therapy' },
     ],
     'Social Science': [
-      'Anthropology',
-      'Economics',
-      'Geography',
-      'Political Science',
-      'Psychology',
-      'Sociology',
-      'Women\'s Studies & Feminist Research'
+      { name: 'Psychology', description: 'Human behavior and mental processes' },
+      { name: 'Sociology', description: 'Society and social relationships' },
+      { name: 'Economics', description: 'Economic theory and policy' },
+      { name: 'Political Science', description: 'Government and politics' },
+      { name: 'Anthropology', description: 'Human cultures and societies' },
+      { name: 'Geography', description: 'Physical and human geography' },
     ],
     'Information & Media Studies': [
-      'Media, Information & Technoculture',
-      'Journalism',
-      'Library & Information Science',
-      'Digital Communication'
+      { name: 'Media, Information & Technoculture', description: 'Digital media and technology studies' },
+      { name: 'Library & Information Science', description: 'Information management and library studies' },
+      { name: 'Journalism', description: 'News media and communications' },
     ],
     'Don Wright Faculty of Music': [
-      'Music Performance',
-      'Music Education',
-      'Music History',
-      'Composition',
-      'Music Theory',
-      'Opera'
-    ]
+      { name: 'Performance', description: 'Music performance and interpretation' },
+      { name: 'Composition', description: 'Music composition and theory' },
+      { name: 'Music Education', description: 'Teaching music in schools' },
+      { name: 'Musicology', description: 'Music history and research' },
+    ],
   };
 
   return (
@@ -314,9 +307,8 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Faculty of Science */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'Faculty of Science' ? null : 'Faculty of Science')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
-              >
+                onClick={() => setSelectedFaculty('Faculty of Science')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
@@ -332,9 +324,8 @@ export default function Home() {
 
               {/* Arts & Humanities */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'Arts & Humanities' ? null : 'Arts & Humanities')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
-              >
+                onClick={() => setSelectedFaculty('Arts & Humanities')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -350,9 +341,8 @@ export default function Home() {
 
               {/* Education */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'Education' ? null : 'Education')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
-              >
+                onClick={() => setSelectedFaculty('Education')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -366,13 +356,12 @@ export default function Home() {
                     Teacher education and educational research
                   </p>
                 </div>
-              </button>
+              </div>
 
               {/* Health Sciences */}
               <button 
-                onClick={() => setSelectedFaculty(selectedFaculty === 'Health Sciences' ? null : 'Health Sciences')}
-                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full"
-              >
+                onClick={() => setSelectedFaculty('Health Sciences')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -384,10 +373,12 @@ export default function Home() {
                     Medicine, nursing, and health-related programs
                   </p>
                 </div>
-              </div>
+              </button>
 
               {/* Social Science */}
-              <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4">
+              <button 
+                onClick={() => setSelectedFaculty('Social Science')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -402,7 +393,9 @@ export default function Home() {
               </div>
 
               {/* Information & Media Studies */}
-              <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4">
+              <button 
+                onClick={() => setSelectedFaculty('Information & Media Studies')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
@@ -414,10 +407,12 @@ export default function Home() {
                     Digital media, communications, and information science
                   </p>
                 </div>
-              </div>
+              </button>
 
               {/* Don Wright Faculty of Music */}
-              <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4">
+              <button 
+                onClick={() => setSelectedFaculty('Don Wright Faculty of Music')}
+                className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow flex items-start gap-4 text-left w-full cursor-pointer border-2 border-transparent hover:border-[#4F2683]">
                 <div className="w-12 h-12 bg-[#4F2683] rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
@@ -429,9 +424,43 @@ export default function Home() {
                     Music performance, composition, and theory
                   </p>
                 </div>
-              </div>
+              </button>
             </div>
           </div>
+
+          {/* Departments Section - Shows when a faculty is selected */}
+          {selectedFaculty && facultyDepartments[selectedFaculty] && (
+            <div className="mb-12 bg-gray-100 rounded-lg p-8 border-2 border-[#4F2683]">
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-3xl font-bold text-[#4F2683]">{selectedFaculty} - Departments</h2>
+                <button 
+                  onClick={() => setSelectedFaculty(null)}
+                  className="text-[#4F2683] hover:text-[#3d1d66] font-semibold flex items-center gap-2"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                  Close
+                </button>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {facultyDepartments[selectedFaculty].map((dept, index) => (
+                  <div key={index} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                    {/* Logo placeholder */}
+                    <div className="mb-4 flex justify-center">
+                      <div className="w-24 h-24 bg-gray-200 rounded-lg flex items-center justify-center border-2 border-dashed border-gray-400">
+                        <span className="text-xs text-gray-500 text-center px-2">Department Logo</span>
+                      </div>
+                    </div>
+                    <h3 className="text-lg font-semibold text-[#4F2683] mb-2 text-center">{dept.name}</h3>
+                    <p className="text-sm text-gray-600 text-center">
+                      {dept.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </main>
 
