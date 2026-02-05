@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   
@@ -60,9 +62,11 @@ export default function Footer() {
                   title="Facebook"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <img 
+                  <Image 
                     src="https://www.uwo.ca/web_standards/img/social/svg/facebook.svg" 
                     alt="Western on Facebook" 
+                    width={32}
+                    height={32}
                     className="w-8 h-8"
                   />
                 </a>
@@ -73,9 +77,11 @@ export default function Footer() {
                   title="Instagram"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <img 
+                  <Image 
                     src="https://www.uwo.ca/web_standards/img/social/svg/instagram.svg" 
                     alt="Instagram icon" 
+                    width={32}
+                    height={32}
                     className="w-8 h-8"
                   />
                 </a>
@@ -86,9 +92,11 @@ export default function Footer() {
                   title="YouTube"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <img 
+                  <Image 
                     src="https://www.uwo.ca/web_standards/img/social/svg/youtube1.svg" 
                     alt="Western on YouTube" 
+                    width={32}
+                    height={32}
                     className="w-8 h-8"
                   />
                 </a>
@@ -99,9 +107,11 @@ export default function Footer() {
                   title="LinkedIn"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <img 
+                  <Image 
                     src="https://www.uwo.ca/web_standards/img/social/svg/linkedin.svg" 
                     alt="LinkedIn icon" 
+                    width={32}
+                    height={32}
                     className="w-8 h-8"
                   />
                 </a>
@@ -112,9 +122,11 @@ export default function Footer() {
                   title="Weibo"
                   className="hover:opacity-80 transition-opacity"
                 >
-                  <img 
+                  <Image 
                     src="https://www.uwo.ca/web_standards/img/social/svg/weibo.svg" 
                     alt="Weibo icon" 
+                    width={32}
+                    height={32}
                     className="w-8 h-8"
                   />
                 </a>
@@ -126,9 +138,11 @@ export default function Footer() {
                 title="Western Home Page"
                 className="hover:opacity-80 transition-opacity"
               >
-                <img 
+                <Image 
                   src="https://www.uwo.ca/img/homepage/2017/logo-western-crest-ftr.svg" 
                   alt="Western University Crest" 
+                  width={80}
+                  height={80}
                   className="w-20 h-auto"
                 />
               </a>
