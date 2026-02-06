@@ -295,602 +295,474 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modul
 function Footer() {
     const currentYear = new Date().getFullYear();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-[#58595B]",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "bg-western-purple text-white",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mx-auto max-w-7xl px-6 py-10",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mx-auto flex max-w-7xl items-center justify-center gap-4 px-6 py-4",
+                    className: "grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://www.facebook.com/WesternUniversity",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            title: "Facebook",
-                            className: "transition-opacity hover:opacity-80",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                alt: "Western on Facebook",
-                                className: "h-8 w-8",
-                                height: 32,
-                                width: 32,
-                                src: "https://www.uwo.ca/web_standards/img/social/svg/facebook.svg"
-                            }, void 0, false, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 18,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-sm text-white/60",
+                                    children: [
+                                        "© 1878 - ",
+                                        currentYear,
+                                        " Western University"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 16,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-4 text-sm leading-relaxed text-white/80",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "font-semibold text-white hover:underline",
+                                            children: "Office of the Registrar"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 21,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 29,
+                                            columnNumber: 17
+                                        }, this),
+                                        "1151 Richmond Street",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 31,
+                                            columnNumber: 17
+                                        }, this),
+                                        "London, Ontario, Canada, N6A 3K7",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 33,
+                                            columnNumber: 17
+                                        }, this),
+                                        "Tel: 519 661 2100"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 20,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-4 flex flex-wrap gap-x-2 text-xs text-white/60",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://www.uwo.ca/vpfinance/legalcounsel/privacy/",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "hover:text-white",
+                                            children: "Privacy"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 37,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            "aria-hidden": "true",
+                                            children: "|"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 45,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://www.communications.uwo.ca/web_design/standards/",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "hover:text-white",
+                                            children: "Web Standards"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 46,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            "aria-hidden": "true",
+                                            children: "|"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 54,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://www.uwo.ca/terms-of-use.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "hover:text-white",
+                                            children: "Terms of Use"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 55,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            "aria-hidden": "true",
+                                            children: "|"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 63,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://accessibility.uwo.ca/",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "hover:text-white",
+                                            children: "Accessibility"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 64,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                            lineNumber: 11,
-                            columnNumber: 11
+                            lineNumber: 15,
+                            columnNumber: 13
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://instagram.com/westernuniversity",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            title: "Instagram",
-                            className: "transition-opacity hover:opacity-80",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                alt: "Instagram icon",
-                                className: "h-8 w-8",
-                                height: 32,
-                                width: 32,
-                                src: "https://www.uwo.ca/web_standards/img/social/svg/instagram.svg"
-                            }, void 0, false, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 33,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "mb-4 text-sm font-bold text-white",
+                                    children: "Key Topics:"
+                                }, void 0, false, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 77,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                                    className: "flex flex-col gap-2 text-sm",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/services/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Services"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 81,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/academics/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Academics"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 89,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/student_finances/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Student Finances"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 97,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/resources/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Resources"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 105,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/admissions/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Admissions"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 113,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/features/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Features"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 121,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 80,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                            lineNumber: 26,
-                            columnNumber: 11
+                            lineNumber: 76,
+                            columnNumber: 13
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://www.youtube.com/user/westernuniversity",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            title: "YouTube",
-                            className: "transition-opacity hover:opacity-80",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                alt: "Western on YouTube",
-                                className: "h-8 w-8",
-                                height: 32,
-                                width: 32,
-                                src: "https://www.uwo.ca/web_standards/img/social/svg/youtube1.svg"
-                            }, void 0, false, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 48,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "mb-4 text-sm font-bold text-white",
+                                    children: "Popular Resources:"
+                                }, void 0, false, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 134,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                                    className: "flex flex-col gap-2 text-sm",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/features/index.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Features/News"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 138,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/ministry_notices.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Ministry Notices"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 146,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/accessibility_at_western.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Accessibility at Western"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 154,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://registrar.uwo.ca/faculty_academic_counselling.html",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "text-white/70 hover:text-white",
+                                            children: "Faculty Academic Counselling"
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 162,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 137,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                            lineNumber: 41,
-                            columnNumber: 11
+                            lineNumber: 133,
+                            columnNumber: 13
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://www.linkedin.com/school/166689/",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            title: "LinkedIn",
-                            className: "transition-opacity hover:opacity-80",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                alt: "LinkedIn icon",
-                                className: "h-8 w-8",
-                                height: 32,
-                                width: 32,
-                                src: "https://www.uwo.ca/web_standards/img/social/svg/linkedin.svg"
-                            }, void 0, false, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 63,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col items-start gap-6 lg:items-end",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex items-center gap-3",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://www.facebook.com/WesternUniversity",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            title: "Facebook",
+                                            className: "transition-opacity hover:opacity-80",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                alt: "Western on Facebook",
+                                                className: "h-6 w-6",
+                                                height: 24,
+                                                width: 24,
+                                                src: "https://www.uwo.ca/web_standards/img/social/svg/facebook.svg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                                lineNumber: 183,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 176,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://instagram.com/westernuniversity",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            title: "Instagram",
+                                            className: "transition-opacity hover:opacity-80",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                alt: "Instagram icon",
+                                                className: "h-6 w-6",
+                                                height: 24,
+                                                width: 24,
+                                                src: "https://www.uwo.ca/web_standards/img/social/svg/instagram.svg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                                lineNumber: 198,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 191,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://www.youtube.com/user/westernuniversity",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            title: "YouTube",
+                                            className: "transition-opacity hover:opacity-80",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                alt: "Western on YouTube",
+                                                className: "h-6 w-6",
+                                                height: 24,
+                                                width: 24,
+                                                src: "https://www.uwo.ca/web_standards/img/social/svg/youtube1.svg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                                lineNumber: 213,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 206,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://www.linkedin.com/school/166689/",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            title: "LinkedIn",
+                                            className: "transition-opacity hover:opacity-80",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                alt: "LinkedIn icon",
+                                                className: "h-6 w-6",
+                                                height: 24,
+                                                width: 24,
+                                                src: "https://www.uwo.ca/web_standards/img/social/svg/linkedin.svg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                                lineNumber: 228,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 221,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://weibo.com/westerninternational",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            title: "Weibo",
+                                            className: "transition-opacity hover:opacity-80",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                alt: "Weibo icon",
+                                                className: "h-6 w-6",
+                                                height: 24,
+                                                width: 24,
+                                                src: "https://www.uwo.ca/web_standards/img/social/svg/weibo.svg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                                lineNumber: 243,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                            lineNumber: 236,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 175,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "https://www.uwo.ca",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    title: "Western Home Page",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        alt: "Western University Crest",
+                                        src: "https://www.uwo.ca/img/homepage/2017/logo-western-crest-ftr.svg",
+                                        className: "w-20",
+                                        width: 80,
+                                        height: 100
+                                    }, void 0, false, {
+                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                        lineNumber: 258,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
+                                    lineNumber: 252,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                            lineNumber: 56,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://weibo.com/westerninternational",
-                            target: "_blank",
-                            rel: "noopener noreferrer",
-                            title: "Weibo",
-                            className: "transition-opacity hover:opacity-80",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                alt: "Weibo icon",
-                                className: "h-8 w-8",
-                                height: 32,
-                                width: 32,
-                                src: "https://www.uwo.ca/web_standards/img/social/svg/weibo.svg"
-                            }, void 0, false, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 78,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                            lineNumber: 71,
-                            columnNumber: 11
+                            lineNumber: 174,
+                            columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                    lineNumber: 10,
-                    columnNumber: 9
+                    lineNumber: 13,
+                    columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-western-purple text-white",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mx-auto max-w-7xl px-6 py-10",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm text-white/60",
-                                        children: [
-                                            "© 1878 - ",
-                                            currentYear,
-                                            " Western University"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 95,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 text-sm leading-relaxed text-white/80",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "font-semibold text-white hover:underline",
-                                                children: "Office of the Registrar"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 108,
-                                                columnNumber: 17
-                                            }, this),
-                                            "1151 Richmond Street",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 110,
-                                                columnNumber: 17
-                                            }, this),
-                                            "London, Ontario, Canada, N6A 3K7",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 112,
-                                                columnNumber: 17
-                                            }, this),
-                                            "Tel: 519 661 2100"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 99,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 flex flex-wrap gap-x-2 text-xs text-white/60",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://www.uwo.ca/vpfinance/legalcounsel/privacy/",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "hover:text-white",
-                                                children: "Privacy"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 116,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "aria-hidden": "true",
-                                                children: "|"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 124,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://www.communications.uwo.ca/web_design/standards/",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "hover:text-white",
-                                                children: "Web Standards"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 125,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "aria-hidden": "true",
-                                                children: "|"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 133,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://www.uwo.ca/terms-of-use.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "hover:text-white",
-                                                children: "Terms of Use"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 134,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                "aria-hidden": "true",
-                                                children: "|"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 142,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://accessibility.uwo.ca/",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "hover:text-white",
-                                                children: "Accessibility"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 143,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 115,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 94,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "mb-4 text-sm font-bold text-white",
-                                        children: "Key Topics:"
-                                    }, void 0, false, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 156,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                        className: "flex flex-col gap-2 text-sm",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/services/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Services"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 160,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/academics/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Academics"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 168,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/student_finances/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Student Finances"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 176,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/resources/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Resources"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 184,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/admissions/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Admissions"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 192,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/features/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Features"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 200,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 159,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 155,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "mb-4 text-sm font-bold text-white",
-                                        children: "Popular Resources:"
-                                    }, void 0, false, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 213,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                                        className: "flex flex-col gap-2 text-sm",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/features/index.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Features/News"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 217,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/ministry_notices.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Ministry Notices"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 225,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/accessibility_at_western.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Accessibility at Western"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 233,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://registrar.uwo.ca/faculty_academic_counselling.html",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                className: "text-white/70 hover:text-white",
-                                                children: "Faculty Academic Counselling"
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 241,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 216,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 212,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col items-start gap-6 lg:items-end",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://www.facebook.com/WesternUniversity",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                title: "Facebook",
-                                                className: "transition-opacity hover:opacity-80",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    alt: "Western on Facebook",
-                                                    className: "h-6 w-6",
-                                                    height: 24,
-                                                    width: 24,
-                                                    src: "https://www.uwo.ca/web_standards/img/social/svg/facebook.svg"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                    lineNumber: 262,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 255,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://instagram.com/westernuniversity",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                title: "Instagram",
-                                                className: "transition-opacity hover:opacity-80",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    alt: "Instagram icon",
-                                                    className: "h-6 w-6",
-                                                    height: 24,
-                                                    width: 24,
-                                                    src: "https://www.uwo.ca/web_standards/img/social/svg/instagram.svg"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                    lineNumber: 277,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 270,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://www.youtube.com/user/westernuniversity",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                title: "YouTube",
-                                                className: "transition-opacity hover:opacity-80",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    alt: "Western on YouTube",
-                                                    className: "h-6 w-6",
-                                                    height: 24,
-                                                    width: 24,
-                                                    src: "https://www.uwo.ca/web_standards/img/social/svg/youtube1.svg"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                    lineNumber: 292,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 285,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://www.linkedin.com/school/166689/",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                title: "LinkedIn",
-                                                className: "transition-opacity hover:opacity-80",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    alt: "LinkedIn icon",
-                                                    className: "h-6 w-6",
-                                                    height: 24,
-                                                    width: 24,
-                                                    src: "https://www.uwo.ca/web_standards/img/social/svg/linkedin.svg"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                    lineNumber: 307,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 300,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "https://weibo.com/westerninternational",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                title: "Weibo",
-                                                className: "transition-opacity hover:opacity-80",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    alt: "Weibo icon",
-                                                    className: "h-6 w-6",
-                                                    height: 24,
-                                                    width: 24,
-                                                    src: "https://www.uwo.ca/web_standards/img/social/svg/weibo.svg"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                    lineNumber: 322,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                                lineNumber: 315,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 254,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "https://www.uwo.ca",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        title: "Western Home Page",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            alt: "Western University Crest",
-                                            src: "https://www.uwo.ca/img/homepage/2017/logo-western-crest-ftr.svg",
-                                            className: "w-20",
-                                            width: 80,
-                                            height: 100
-                                        }, void 0, false, {
-                                            fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                            lineNumber: 337,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                        lineNumber: 331,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                                lineNumber: 253,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                        lineNumber: 92,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                    lineNumber: 91,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/uwo-chatbot/components/footer.tsx",
-                lineNumber: 90,
-                columnNumber: 7
+                lineNumber: 12,
+                columnNumber: 9
             }, this)
-        ]
-    }, void 0, true, {
+        }, void 0, false, {
+            fileName: "[project]/uwo-chatbot/components/footer.tsx",
+            lineNumber: 11,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/uwo-chatbot/components/footer.tsx",
         lineNumber: 7,
         columnNumber: 5
