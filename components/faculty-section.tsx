@@ -124,7 +124,7 @@ export function FacultySection() {
   const activeFaculty = faculties.find((f) => f.name === selectedFaculty)
 
   return (
-    <section id="faculties" className="bg-secondary py-20">
+    <section id="faculties" className="bg-secondary py-20 border-b-0">
       <div className="mx-auto max-w-7xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-3xl font-bold text-foreground md:text-4xl">

@@ -4,12 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  overscroll-behavior: none;
 }
 
 @layer base {
@@ -50,17 +45,5 @@ body {
     --sidebar-accent-foreground: 270 53% 33%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 270 53% 33%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  html,
-  body {
-    @apply bg-background text-foreground;
-    margin: 0;
-    padding: 0;
   }
 }

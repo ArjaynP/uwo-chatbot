@@ -1,5 +1,5 @@
 import React from "react"
-import type { Metadata, Viewport } from 'next'
+import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 
 import './globals.css'
@@ -17,10 +17,6 @@ export const metadata: Metadata = {
   title: 'Western University - Student Services Chatbot',
   description:
     'Get help with course registration, financial aid, transcripts, and more at Western University.',
-}
-
-export const viewport: Viewport = {
-  themeColor: '#4F2683',
 }
 
 export default function RootLayout({

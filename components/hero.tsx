@@ -2,7 +2,7 @@ import { MessageCircle, ArrowDown } from "lucide-react"
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-western-purple py-24 text-white lg:py-32">
+    <section className="relative overflow-hidden bg-western-purple py-24 text-white lg:py-32 border-b-0">
       {/* Background pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_40%,rgba(255,255,255,0.06)_0%,transparent_50%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_60%,rgba(255,255,255,0.04)_0%,transparent_50%)]" />
