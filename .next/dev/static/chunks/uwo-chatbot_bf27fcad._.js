@@ -266,7 +266,6 @@ __turbopack_context__.s([
     ()=>TopicsSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/uwo-chatbot/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/uwo-chatbot/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$book$2d$open$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BookOpen$3e$__ = __turbopack_context__.i("[project]/uwo-chatbot/node_modules/lucide-react/dist/esm/icons/book-open.js [app-client] (ecmascript) <export default as BookOpen>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$days$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarDays$3e$__ = __turbopack_context__.i("[project]/uwo-chatbot/node_modules/lucide-react/dist/esm/icons/calendar-days.js [app-client] (ecmascript) <export default as CalendarDays>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/uwo-chatbot/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-client] (ecmascript) <export default as GraduationCap>");
@@ -283,7 +282,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modul
 "use client";
 ;
 ;
-;
 const topics = [
     {
         title: "Course Registration",
@@ -292,10 +290,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 33,
+            lineNumber: 32,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/course-registration.jpg"
+        thumbnail: "/thumbnails/course-registration.svg"
     },
     {
         title: "Draft My Schedule",
@@ -304,10 +302,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 40,
+            lineNumber: 39,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/draft-schedule.jpg"
+        thumbnail: "/thumbnails/draft-schedule.svg"
     },
     {
         title: "Degrees/Diplomas",
@@ -316,10 +314,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 47,
+            lineNumber: 46,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/degrees-diplomas.jpg"
+        thumbnail: "/thumbnails/degrees-diplomas.svg"
     },
     {
         title: "Graduation/Convocation",
@@ -328,10 +326,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 54,
+            lineNumber: 53,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/graduation.jpg"
+        thumbnail: "/thumbnails/graduation.svg"
     },
     {
         title: "Bursary/Work Study",
@@ -340,10 +338,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 61,
+            lineNumber: 60,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/bursary-workstudy.jpg"
+        thumbnail: "/thumbnails/bursary-workstudy.svg"
     },
     {
         title: "OSAP or Out of Province Loans",
@@ -352,10 +350,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 68,
+            lineNumber: 67,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/osap-loans.jpg"
+        thumbnail: "/thumbnails/osap-loans.svg"
     },
     {
         title: "Tuition, Deposits, & Refunds",
@@ -364,10 +362,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 75,
+            lineNumber: 74,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/tuition-deposits.jpg"
+        thumbnail: "/thumbnails/tuition-deposits.svg"
     },
     {
         title: "Financial Aid Counselling",
@@ -376,10 +374,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 82,
+            lineNumber: 81,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/financial-counselling.jpg"
+        thumbnail: "/thumbnails/financial-counselling.svg"
     },
     {
         title: "Official Western Letters",
@@ -388,10 +386,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 89,
+            lineNumber: 88,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/official-letters.jpg"
+        thumbnail: "/thumbnails/official-letters.svg"
     },
     {
         title: "Third Party Forms",
@@ -400,10 +398,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 96,
+            lineNumber: 95,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/third-party-forms.jpg"
+        thumbnail: "/thumbnails/third-party-forms.svg"
     },
     {
         title: "Transcripts",
@@ -412,10 +410,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 103,
+            lineNumber: 102,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/transcripts.jpg"
+        thumbnail: "/thumbnails/transcripts.svg"
     },
     {
         title: "Western ONECard",
@@ -424,10 +422,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/onecard.jpg"
+        thumbnail: "/thumbnails/onecard.svg"
     },
     {
         title: "Other",
@@ -436,10 +434,10 @@ const topics = [
             className: "h-5 w-5"
         }, void 0, false, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 117,
+            lineNumber: 116,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
-        thumbnail: "/thumbnails/other.jpg"
+        thumbnail: "/thumbnails/other.svg"
     }
 ];
 function TopicsSection() {
@@ -457,7 +455,7 @@ function TopicsSection() {
                             children: "How Can We Help You?"
                         }, void 0, false, {
                             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                            lineNumber: 127,
+                            lineNumber: 126,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -465,13 +463,13 @@ function TopicsSection() {
                             children: "Select a topic below to learn more or ask our chatbot for personalized assistance."
                         }, void 0, false, {
                             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                            lineNumber: 130,
+                            lineNumber: 129,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                    lineNumber: 126,
+                    lineNumber: 125,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -480,23 +478,23 @@ function TopicsSection() {
                             topic: topic
                         }, topic.title, false, {
                             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                            lineNumber: 137,
+                            lineNumber: 136,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                    lineNumber: 135,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-            lineNumber: 125,
+            lineNumber: 124,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-        lineNumber: 124,
+        lineNumber: 123,
         columnNumber: 5
     }, this);
 }
@@ -505,22 +503,17 @@ function TopicCard({ topic }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         type: "button",
         className: "group relative flex aspect-square flex-col items-center justify-end overflow-hidden rounded-xl transition-all hover:shadow-lg hover:shadow-western-purple/10",
+        style: {
+            backgroundImage: `url(${topic.thumbnail})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+        },
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: topic.thumbnail || "/placeholder.svg",
-                alt: topic.title,
-                fill: true,
-                className: "object-cover transition-transform duration-300 group-hover:scale-105"
-            }, void 0, false, {
-                fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                lineNumber: 152,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-western-purple/60 transition-colors group-hover:bg-western-purple/50"
             }, void 0, false, {
                 fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                lineNumber: 159,
+                lineNumber: 156,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -531,7 +524,7 @@ function TopicCard({ topic }) {
                         children: topic.icon
                     }, void 0, false, {
                         fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                        lineNumber: 162,
+                        lineNumber: 159,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$uwo$2d$chatbot$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -539,19 +532,19 @@ function TopicCard({ topic }) {
                         children: topic.title
                     }, void 0, false, {
                         fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                        lineNumber: 165,
+                        lineNumber: 162,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-                lineNumber: 161,
+                lineNumber: 158,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/uwo-chatbot/components/topics-section.tsx",
-        lineNumber: 147,
+        lineNumber: 146,
         columnNumber: 5
     }, this);
 }

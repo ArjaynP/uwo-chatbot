@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import {
   BookOpen,
   CalendarDays,
@@ -31,91 +30,91 @@ const topics: Topic[] = [
     description:
       "Get help with enrolling in courses, swapping sections, and managing your timetable.",
     icon: <BookOpen className="h-5 w-5" />,
-    thumbnail: "/thumbnails/course-registration.jpg",
+    thumbnail: "/thumbnails/course-registration.svg",
   },
   {
     title: "Draft My Schedule",
     description:
       "Plan and draft your ideal class schedule for the upcoming term.",
     icon: <CalendarDays className="h-5 w-5" />,
-    thumbnail: "/thumbnails/draft-schedule.jpg",
+    thumbnail: "/thumbnails/draft-schedule.svg",
   },
   {
     title: "Degrees/Diplomas",
     description:
       "Information about degree requirements, program changes, and diploma options.",
     icon: <GraduationCap className="h-5 w-5" />,
-    thumbnail: "/thumbnails/degrees-diplomas.jpg",
+    thumbnail: "/thumbnails/degrees-diplomas.svg",
   },
   {
     title: "Graduation/Convocation",
     description:
       "Details on graduation applications, ceremonies, and convocation dates.",
     icon: <Award className="h-5 w-5" />,
-    thumbnail: "/thumbnails/graduation.jpg",
+    thumbnail: "/thumbnails/graduation.svg",
   },
   {
     title: "Bursary/Work Study",
     description:
       "Learn about bursary programs and on-campus work-study opportunities.",
     icon: <Briefcase className="h-5 w-5" />,
-    thumbnail: "/thumbnails/bursary-workstudy.jpg",
+    thumbnail: "/thumbnails/bursary-workstudy.svg",
   },
   {
     title: "OSAP or Out of Province Loans",
     description:
       "Guidance on OSAP applications, out-of-province student loans, and funding.",
     icon: <Landmark className="h-5 w-5" />,
-    thumbnail: "/thumbnails/osap-loans.jpg",
+    thumbnail: "/thumbnails/osap-loans.svg",
   },
   {
     title: "Tuition, Deposits, & Refunds",
     description:
       "Find answers about tuition fees, deposit requirements, and refund policies.",
     icon: <DollarSign className="h-5 w-5" />,
-    thumbnail: "/thumbnails/tuition-deposits.jpg",
+    thumbnail: "/thumbnails/tuition-deposits.svg",
   },
   {
     title: "Financial Aid Counselling",
     description:
       "Connect with financial aid counsellors for personalized support.",
     icon: <HandHeart className="h-5 w-5" />,
-    thumbnail: "/thumbnails/financial-counselling.jpg",
+    thumbnail: "/thumbnails/financial-counselling.svg",
   },
   {
     title: "Official Western Letters",
     description:
       "Request official letters such as enrollment verification and confirmation letters.",
     icon: <FileText className="h-5 w-5" />,
-    thumbnail: "/thumbnails/official-letters.jpg",
+    thumbnail: "/thumbnails/official-letters.svg",
   },
   {
     title: "Third Party Forms",
     description:
       "Submit and process forms required by external organizations and agencies.",
     icon: <ClipboardList className="h-5 w-5" />,
-    thumbnail: "/thumbnails/third-party-forms.jpg",
+    thumbnail: "/thumbnails/third-party-forms.svg",
   },
   {
     title: "Transcripts",
     description:
       "Order official transcripts for academic records and credential verification.",
     icon: <ScrollText className="h-5 w-5" />,
-    thumbnail: "/thumbnails/transcripts.jpg",
+    thumbnail: "/thumbnails/transcripts.svg",
   },
   {
     title: "Western ONECard",
     description:
       "Manage your Western ONECard for campus identification, building access, and payments.",
     icon: <CreditCard className="h-5 w-5" />,
-    thumbnail: "/thumbnails/onecard.jpg",
+    thumbnail: "/thumbnails/onecard.svg",
   },
   {
     title: "Other",
     description:
       "Have a different question? Ask about any other student services topic.",
     icon: <HelpCircle className="h-5 w-5" />,
-    thumbnail: "/thumbnails/other.jpg",
+    thumbnail: "/thumbnails/other.svg",
   },
 ]
 
@@ -147,14 +146,12 @@ function TopicCard({ topic }: { topic: Topic }) {
     <button
       type="button"
       className="group relative flex aspect-square flex-col items-center justify-end overflow-hidden rounded-xl transition-all hover:shadow-lg hover:shadow-western-purple/10"
+      style={{
+        backgroundImage: `url(${topic.thumbnail})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
-      {/* Full thumbnail background */}
-      <Image
-        src={topic.thumbnail || "/placeholder.svg"}
-        alt={topic.title}
-        fill
-        className="object-cover transition-transform duration-300 group-hover:scale-105"
-      />
       {/* Purple overlay */}
       <div className="absolute inset-0 bg-western-purple/60 transition-colors group-hover:bg-western-purple/50" />
       {/* Icon + title at the bottom */}
