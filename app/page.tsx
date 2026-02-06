@@ -7,14 +7,15 @@ import { Footer } from "@/components/footer"
 
 export default function Page() {
   return (
-    <div className="flex min-h-full flex-col">
+    <div className="flex min-h-screen flex-col">
       <Header />
-      <main className="flex-1 border-0">
+      <main className="flex-1">
         <Hero />
         <TopicsSection />
         <FacultySection />
         <ChatWidget />
       </main>
+      <Footer />
     </div>
   )
 }
