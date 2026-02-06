@@ -22,7 +22,7 @@ const faculties: Faculty[] = [
     name: "Faculty of Science",
     description:
       "Explore programs in mathematics, biology, chemistry, physics, computer science, and more.",
-    thumbnail: "/thumbnails/faculty-science.jpg",
+    thumbnail: "/thumbnails/western-science.png",
     departments: [
       { name: "Applied Mathematics" },
       { name: "Biology" },
@@ -38,7 +38,7 @@ const faculties: Faculty[] = [
     name: "Arts & Humanities",
     description:
       "Discover programs in literature, history, philosophy, languages, and the visual arts.",
-    thumbnail: "/thumbnails/faculty-arts.jpg",
+    thumbnail: "/thumbnails/western-arts-humanities.png",
     departments: [
       { name: "English and Writing Studies" },
       { name: "French Studies" },
@@ -54,7 +54,7 @@ const faculties: Faculty[] = [
     name: "Education",
     description:
       "Programs for aspiring educators including pre-service, graduate, and professional studies.",
-    thumbnail: "/thumbnails/faculty-education.jpg",
+    thumbnail: "/thumbnails/western-education.png",
     departments: [
       { name: "Pre-Service Education" },
       { name: "Graduate Education" },
@@ -65,7 +65,7 @@ const faculties: Faculty[] = [
     name: "Health Sciences",
     description:
       "Programs in nursing, kinesiology, occupational therapy, physical therapy, and more.",
-    thumbnail: "/thumbnails/faculty-health.jpg",
+    thumbnail: "/thumbnails/western-health-sciences.png",
     departments: [
       { name: "Communication Sciences and Disorders" },
       { name: "Health Studies" },
@@ -79,7 +79,7 @@ const faculties: Faculty[] = [
     name: "Social Science",
     description:
       "Study anthropology, economics, geography, political science, psychology, sociology, and more.",
-    thumbnail: "/thumbnails/faculty-social-science.jpg",
+    thumbnail: "/thumbnails/western-social-science.png",
     departments: [
       { name: "Anthropology" },
       { name: "Economics" },
@@ -96,7 +96,7 @@ const faculties: Faculty[] = [
     name: "Information & Media Studies",
     description:
       "Programs in library science, media studies, and journalism.",
-    thumbnail: "/thumbnails/faculty-media.jpg",
+    thumbnail: "/thumbnails/western-fims.png",
     departments: [
       { name: "Library and Information Science" },
       { name: "Media and Information Studies" },
@@ -107,7 +107,7 @@ const faculties: Faculty[] = [
     name: "Don Wright Faculty of Music",
     description:
       "Programs in music education, performance, theory, composition, and popular music studies.",
-    thumbnail: "/thumbnails/faculty-music.jpg",
+    thumbnail: "/thumbnails/western-music.jpg",
     departments: [
       { name: "Music Education" },
       { name: "Music Performance" },
