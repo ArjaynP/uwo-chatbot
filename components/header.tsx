@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -12,7 +13,7 @@ export function Header() {
     <header className="bg-western-purple text-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-3">
-          <WesternCrest className="h-12 w-12" />
+          <Image src="/thumbnails/uwo-chatbot-icon.png" alt="UWO Chatbot" width={48} height={48} className="h-12 w-12 rounded-lg" />
           <div>
             <p className="text-lg font-bold leading-tight">Western University</p>
             <p className="text-sm text-white/80">Office of the Registrar</p>
@@ -84,27 +85,4 @@ export function Header() {
   )
 }
 
-function WesternCrest({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 64 64"
-      className={className}
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <rect width="64" height="64" rx="8" fill="white" fillOpacity="0.15" />
-      <text
-        x="32"
-        y="40"
-        textAnchor="middle"
-        fill="white"
-        fontSize="28"
-        fontWeight="bold"
-        fontFamily="serif"
-      >
-        W
-      </text>
-    </svg>
-  )
-}
+

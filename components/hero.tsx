@@ -12,9 +12,8 @@ export function Hero() {
           <MessageCircle className="h-8 w-8" />
         </div>
         <h1 className="mt-8 text-balance text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
-          Western University
+          UWO CHATBOT
           <br />
-          <span className="text-white/80">Student Services Assistant</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-white/70 md:text-xl">
           Your virtual assistant for course registration, financial aid,
