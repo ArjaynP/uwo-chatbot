@@ -16,9 +16,8 @@ export function Hero() {
           <br />
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-white/70 md:text-xl">
-          Your virtual assistant for course registration, financial aid,
-          transcripts, and more. Get quick answers to your questions about
-          student services at Western.
+          Your virtual assistant for general inquiries, faculty related questions, department specifics,
+          and more. Get quick answers to your questions about student services at Western.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a
